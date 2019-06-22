@@ -23,17 +23,16 @@ class MyApp extends StatelessWidget {
                 style: TextStyle(
                   fontFamily: 'Pacifico',
                   fontSize: 40,
-                  fontWeight: FontWeight.bold,
                   color: Colors.white,
                 ),
               ),
               Text(
-                'Fullstack Developer'.toUpperCase(),
+                'FULLSTACK DEVELOPER',
                 style: TextStyle(
                   fontFamily: 'Source Sans Pro',
                   fontSize: 20,
-                  letterSpacing: 5,
                   fontWeight: FontWeight.bold,
+                  letterSpacing: 5,
                   color: Colors.white,
                 ),
               ),
@@ -45,10 +44,7 @@ class MyApp extends StatelessWidget {
                 ),
               ),
               Card(
-                margin: EdgeInsets.symmetric(
-                  vertical: 10,
-                  horizontal: 25,
-                ),
+                margin: EdgeInsets.symmetric(vertical: 10, horizontal: 50),
                 child: ListTile(
                   leading: Icon(
                     Icons.phone,
@@ -57,18 +53,14 @@ class MyApp extends StatelessWidget {
                   title: Text(
                     '+62 838 4232 7765',
                     style: TextStyle(
-                      color: Colors.teal.shade900,
-                      fontFamily: 'Source Sans Pro',
-                      fontSize: 20,
-                    ),
+                        color: Colors.teal.shade900,
+                        fontSize: 20,
+                        fontFamily: 'Source Sans Pro'),
                   ),
                 ),
               ),
               Card(
-                margin: EdgeInsets.symmetric(
-                  vertical: 10,
-                  horizontal: 25,
-                ),
+                margin: EdgeInsets.symmetric(vertical: 10, horizontal: 50),
                 child: ListTile(
                   leading: Icon(
                     Icons.email,
